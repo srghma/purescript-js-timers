@@ -1,0 +1,21 @@
+package:
+  name: js-timers
+  publish:
+    license: MIT
+    version: 6.1.0
+    location:
+      githubOwner: purescript-contrib
+      githubRepo: purescript-js-timers
+  dependencies:
+    - effect
+    - prelude
+  test:
+    main: Test.Main
+    dependencies:
+      - assert
+      - console
+      - refs
+workspace:
+  extraPackages: {}
+  packageSet:
+    registry: 60.5.0
