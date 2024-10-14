@@ -16,7 +16,4 @@ package:
       - assert
       - console
       - refs
-workspace:
-  extraPackages: {}
-  packageSet:
-    registry: 60.5.0
+workspace: {}
